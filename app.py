@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from Visualizer import (kmeans_clustering
+from Visualizer import (kmeans_clustering,
 plot_2d_scatter, plot_3d_scatter)
 
 app = Flask(__name__)
